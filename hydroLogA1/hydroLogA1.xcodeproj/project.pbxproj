@@ -13,6 +13,8 @@
 		BF69BE63252EABDC003C04F7 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BF69BE61252EABDC003C04F7 /* Main.storyboard */; };
 		BF69BE65252EABE0003C04F7 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BF69BE64252EABE0003C04F7 /* Assets.xcassets */; };
 		BF69BE68252EABE0003C04F7 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BF69BE66252EABE0003C04F7 /* LaunchScreen.storyboard */; };
+		BF7B860F25311695000B8C01 /* Well.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF7B860E25311695000B8C01 /* Well.swift */; };
+		BF7B86172531190F000B8C01 /* SignUp_ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF7B86162531190F000B8C01 /* SignUp_ViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +26,8 @@
 		BF69BE64252EABE0003C04F7 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		BF69BE67252EABE0003C04F7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		BF69BE69252EABE0003C04F7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BF7B860E25311695000B8C01 /* Well.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Well.swift; sourceTree = "<group>"; };
+		BF7B86162531190F000B8C01 /* SignUp_ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignUp_ViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,9 +60,8 @@
 		BF69BE5A252EABDC003C04F7 /* hydroLogA1 */ = {
 			isa = PBXGroup;
 			children = (
-				BF69BE73252EAC4E003C04F7 /* model */,
-				BF69BE72252EAC40003C04F7 /* views */,
-				BF69BE74252EAC70003C04F7 /* controller */,
+				BF7B860C25311677000B8C01 /* MODEL */,
+				BF7B860D25311680000B8C01 /* CONTROLLER */,
 				BF69BE70252EAC25003C04F7 /* resources */,
 				BF69BE5F252EABDC003C04F7 /* ViewController.swift */,
 			);
@@ -77,42 +80,53 @@
 			path = resources;
 			sourceTree = "<group>";
 		};
-		BF69BE72252EAC40003C04F7 /* views */ = {
+		BF69BE72252EAC40003C04F7 /* VIEWS */ = {
 			isa = PBXGroup;
 			children = (
 				BF69BE61252EABDC003C04F7 /* Main.storyboard */,
 			);
-			path = views;
+			path = VIEWS;
 			sourceTree = "<group>";
 		};
-		BF69BE73252EAC4E003C04F7 /* model */ = {
+		BF7B860C25311677000B8C01 /* MODEL */ = {
+			isa = PBXGroup;
+			children = (
+				BF69BE72252EAC40003C04F7 /* VIEWS */,
+				BF7B860E25311695000B8C01 /* Well.swift */,
+			);
+			path = MODEL;
+			sourceTree = "<group>";
+		};
+		BF7B860D25311680000B8C01 /* CONTROLLER */ = {
+			isa = PBXGroup;
+			children = (
+				BF7B8615253118E6000B8C01 /* View Controller */,
+				BF7B8614253118D3000B8C01 /* Model Controller */,
+			);
+			path = CONTROLLER;
+			sourceTree = "<group>";
+		};
+		BF7B86112531169A000B8C01 /* Well Controller */ = {
 			isa = PBXGroup;
 			children = (
 			);
-			path = model;
+			path = "Well Controller";
 			sourceTree = "<group>";
 		};
-		BF69BE74252EAC70003C04F7 /* controller */ = {
+		BF7B8614253118D3000B8C01 /* Model Controller */ = {
 			isa = PBXGroup;
 			children = (
-				BF69BE76252EACB1003C04F7 /* Model Controllers */,
-				BF69BE75252EACA0003C04F7 /* View Controller */,
+				BF7B86112531169A000B8C01 /* Well Controller */,
 			);
-			path = controller;
+			path = "Model Controller";
 			sourceTree = "<group>";
 		};
-		BF69BE75252EACA0003C04F7 /* View Controller */ = {
+		BF7B8615253118E6000B8C01 /* View Controller */ = {
 			isa = PBXGroup;
 			children = (
+				BF7B86162531190F000B8C01 /* SignUp_ViewController.swift */,
 			);
 			path = "View Controller";
-			sourceTree = "<group>";
-		};
-		BF69BE76252EACB1003C04F7 /* Model Controllers */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			path = "Model Controllers";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -186,7 +200,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				BF69BE60252EABDC003C04F7 /* ViewController.swift in Sources */,
+				BF7B860F25311695000B8C01 /* Well.swift in Sources */,
 				BF69BE5C252EABDC003C04F7 /* AppDelegate.swift in Sources */,
+				BF7B86172531190F000B8C01 /* SignUp_ViewController.swift in Sources */,
 				BF69BE5E252EABDC003C04F7 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -336,7 +352,7 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 73V52F7L32;
-				INFOPLIST_FILE = hydroLogA1/Info.plist;
+				INFOPLIST_FILE = hydroLogA1/resources/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -355,7 +371,7 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 73V52F7L32;
-				INFOPLIST_FILE = hydroLogA1/Info.plist;
+				INFOPLIST_FILE = hydroLogA1/resources/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",

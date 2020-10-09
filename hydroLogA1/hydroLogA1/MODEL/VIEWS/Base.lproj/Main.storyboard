@@ -137,10 +137,10 @@
             </objects>
             <point key="canvasLocation" x="1186" y="92"/>
         </scene>
-        <!--View Controller-->
+        <!--Sign Up View Controller-->
         <scene sceneID="iST-gH-j7e">
             <objects>
-                <viewController id="bOV-7P-JPD" sceneMemberID="viewController">
+                <viewController id="bOV-7P-JPD" customClass="SignUp_ViewController" customModule="hydroLogA1" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="3Sl-lF-0lf">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
