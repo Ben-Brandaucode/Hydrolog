@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>CLIENT_ID</key>
+	<string>848032403625-54rjdjc02445so923dqbgi8dcsqstpd1.apps.googleusercontent.com</string>
+	<key>REVERSED_CLIENT_ID</key>
+	<string>com.googleusercontent.apps.848032403625-54rjdjc02445so923dqbgi8dcsqstpd1</string>
+	<key>API_KEY</key>
+	<string>AIzaSyAg_Wtbi0jwREQS3h4WEid5dn6XfKnzuNs</string>
+	<key>GCM_SENDER_ID</key>
+	<string>848032403625</string>
+	<key>PLIST_VERSION</key>
+	<string>1</string>
+	<key>BUNDLE_ID</key>
+	<string>com.Brandau.hydroLog</string>
+	<key>PROJECT_ID</key>
+	<string>hydro-log</string>
+	<key>STORAGE_BUCKET</key>
+	<string>hydro-log.appspot.com</string>
+	<key>IS_ADS_ENABLED</key>
+	<false></false>
+	<key>IS_ANALYTICS_ENABLED</key>
+	<false></false>
+	<key>IS_APPINVITE_ENABLED</key>
+	<true></true>
+	<key>IS_GCM_ENABLED</key>
+	<true></true>
+	<key>IS_SIGNIN_ENABLED</key>
+	<true></true>
+	<key>GOOGLE_APP_ID</key>
+	<string>1:848032403625:ios:db6f226715db07dc55d9b8</string>
+	<key>DATABASE_URL</key>
+	<string>https://hydro-log.firebaseio.com</string>
+</dict>
+</plist>

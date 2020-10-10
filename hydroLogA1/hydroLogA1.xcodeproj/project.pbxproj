@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		98E65D6E1B11D16DE38D99B4 /* Pods_hydroLogA1.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 958AB6B05850DD795D4DD2B1 /* Pods_hydroLogA1.framework */; };
 		BF69BE5C252EABDC003C04F7 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF69BE5B252EABDC003C04F7 /* AppDelegate.swift */; };
 		BF69BE5E252EABDC003C04F7 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF69BE5D252EABDC003C04F7 /* SceneDelegate.swift */; };
 		BF69BE60252EABDC003C04F7 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF69BE5F252EABDC003C04F7 /* ViewController.swift */; };
@@ -15,9 +16,12 @@
 		BF69BE68252EABE0003C04F7 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BF69BE66252EABE0003C04F7 /* LaunchScreen.storyboard */; };
 		BF7B860F25311695000B8C01 /* Well.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF7B860E25311695000B8C01 /* Well.swift */; };
 		BF7B86172531190F000B8C01 /* SignUp_ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF7B86162531190F000B8C01 /* SignUp_ViewController.swift */; };
+		BF7B861E253210F9000B8C01 /* GoogleService-Info (1).plist in Resources */ = {isa = PBXBuildFile; fileRef = BF7B861D253210F9000B8C01 /* GoogleService-Info (1).plist */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		958AB6B05850DD795D4DD2B1 /* Pods_hydroLogA1.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_hydroLogA1.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		AD99B9215721D127DBA1E645 /* Pods-hydroLogA1.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-hydroLogA1.release.xcconfig"; path = "Target Support Files/Pods-hydroLogA1/Pods-hydroLogA1.release.xcconfig"; sourceTree = "<group>"; };
 		BF69BE58252EABDC003C04F7 /* hydroLogA1.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = hydroLogA1.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		BF69BE5B252EABDC003C04F7 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		BF69BE5D252EABDC003C04F7 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -28,6 +32,8 @@
 		BF69BE69252EABE0003C04F7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		BF7B860E25311695000B8C01 /* Well.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Well.swift; sourceTree = "<group>"; };
 		BF7B86162531190F000B8C01 /* SignUp_ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignUp_ViewController.swift; sourceTree = "<group>"; };
+		BF7B861D253210F9000B8C01 /* GoogleService-Info (1).plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info (1).plist"; sourceTree = "<group>"; };
+		C5D04A12B28E671917DD30E1 /* Pods-hydroLogA1.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-hydroLogA1.debug.xcconfig"; path = "Target Support Files/Pods-hydroLogA1/Pods-hydroLogA1.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -35,17 +41,38 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				98E65D6E1B11D16DE38D99B4 /* Pods_hydroLogA1.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		5D4D8BB589DB7706561907FB /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				958AB6B05850DD795D4DD2B1 /* Pods_hydroLogA1.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		BAF52B46CDEAA27A09E8A49E /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				C5D04A12B28E671917DD30E1 /* Pods-hydroLogA1.debug.xcconfig */,
+				AD99B9215721D127DBA1E645 /* Pods-hydroLogA1.release.xcconfig */,
+			);
+			name = Pods;
+			path = Pods;
+			sourceTree = "<group>";
+		};
 		BF69BE4F252EABDC003C04F7 = {
 			isa = PBXGroup;
 			children = (
 				BF69BE5A252EABDC003C04F7 /* hydroLogA1 */,
 				BF69BE59252EABDC003C04F7 /* Products */,
+				BAF52B46CDEAA27A09E8A49E /* Pods */,
+				5D4D8BB589DB7706561907FB /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -64,6 +91,7 @@
 				BF7B860D25311680000B8C01 /* CONTROLLER */,
 				BF69BE70252EAC25003C04F7 /* resources */,
 				BF69BE5F252EABDC003C04F7 /* ViewController.swift */,
+				BF7B861D253210F9000B8C01 /* GoogleService-Info (1).plist */,
 			);
 			path = hydroLogA1;
 			sourceTree = "<group>";
@@ -136,9 +164,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = BF69BE6C252EABE0003C04F7 /* Build configuration list for PBXNativeTarget "hydroLogA1" */;
 			buildPhases = (
+				6A5C2CD779C416CE5388587C /* [CP] Check Pods Manifest.lock */,
 				BF69BE54252EABDC003C04F7 /* Sources */,
 				BF69BE55252EABDC003C04F7 /* Frameworks */,
 				BF69BE56252EABDC003C04F7 /* Resources */,
+				C8C02A6D06DDF2F483B9A149 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -189,10 +219,53 @@
 				BF69BE68252EABE0003C04F7 /* LaunchScreen.storyboard in Resources */,
 				BF69BE65252EABE0003C04F7 /* Assets.xcassets in Resources */,
 				BF69BE63252EABDC003C04F7 /* Main.storyboard in Resources */,
+				BF7B861E253210F9000B8C01 /* GoogleService-Info (1).plist in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		6A5C2CD779C416CE5388587C /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-hydroLogA1-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		C8C02A6D06DDF2F483B9A149 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-hydroLogA1/Pods-hydroLogA1-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-hydroLogA1/Pods-hydroLogA1-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-hydroLogA1/Pods-hydroLogA1-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		BF69BE54252EABDC003C04F7 /* Sources */ = {
@@ -347,6 +420,7 @@
 		};
 		BF69BE6D252EABE0003C04F7 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = C5D04A12B28E671917DD30E1 /* Pods-hydroLogA1.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -366,6 +440,7 @@
 		};
 		BF69BE6E252EABE0003C04F7 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = AD99B9215721D127DBA1E645 /* Pods-hydroLogA1.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
